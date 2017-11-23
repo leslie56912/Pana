@@ -1,0 +1,14 @@
+package com.yfwang.panorama.client;
+
+import com.google.gwt.user.client.rpc.RemoteService;
+import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
+import com.yfwang.panorama.shared.Attraction;
+
+/**
+ * The client-side stub for the RPC service.
+ */
+@RemoteServiceRelativePath("greet")
+public interface GreetingService extends RemoteService
+{
+	Attraction findAttraction(Long attractionID) throws IllegalArgumentException;
+}

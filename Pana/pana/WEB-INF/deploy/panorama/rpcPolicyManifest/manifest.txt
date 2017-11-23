@@ -1,0 +1,3 @@
+# Module panorama
+# RPC service class, partial path of RPC policy file
+com.yfwang.panorama.client.GreetingService, AF9FB7354A0D9DE7EF2C6CF37484561D.gwt.rpc
