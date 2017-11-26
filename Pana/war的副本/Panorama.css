@@ -1,0 +1,175 @@
+
+.psv-navbar{
+
+display:none !important;
+}
+
+.left{
+float:left;
+}
+.clear{
+clear:both;
+}
+.detail_Panel{
+width:100%;
+height:100px;
+background: url('img/detail_bg.png');
+top:72px;
+color:white;
+font-size:20px;
+padding:10px;
+}
+
+.home{
+width:30px;
+bottom:10px;
+left:10px;
+}
+.geo{
+width:30px;
+bottom:10px;
+left:60px;
+}
+.menu{
+width:30px;
+bottom:10px;
+left:110px;
+}
+
+.logo_main_view{
+width:110px;
+bottom:20px;
+right:10px;
+}
+.front{
+position:fixed;
+z-index:1000;
+}
+
+.previewPanel{
+	bottom:10px;
+	width:270px;
+	left:138px;
+height:60px;
+}
+.markers{
+position:fixed;
+top:12px;
+left:42%;
+width:50px;
+}
+
+.scroller_dot{
+  width: 4px;   
+   height: 4px;  
+    background-color:white;  
+	border:1px solid black;  
+  border-radius: 50%;  
+    -moz-border-radius: 50%;   
+   -webkit-border-radius: 50%;
+}
+.scroller_dot_chosen{
+background-color:grey; 
+}
+.scroller_dot_table{
+width:auto;
+margin:0 auto;
+}
+.scroller_dot_table td{
+padding:0 5px;
+}
+.image_scroller{
+height:380px;
+}
+.image_scroller img{
+ width:250px;
+}
+
+.previewer{
+
+width:100%;
+height:75px;
+bottom:60px;
+}
+
+.chosen_img{
+border:1px solid rgb(252,187,56);
+}
+.absolute{
+position:absolute;
+}
+
+.menulPanel{
+width:100%;
+height:52px;
+bottom:0px;
+background:url('img/menu_bg.png');
+}
+.preview_box_text{
+background:url('img/sm_overlay.png');
+text-align:center;
+width:100%;
+margin-top:calc(100% - 25px);
+height:25px;
+color:white;
+font-size:13px;
+line-height:2;
+}
+
+
+.markers_panel{
+width:50%;
+height:calc(100% - 55px);
+background:url('img/sec_menu_bg.png');
+top:0;
+left:-50%;
+color:white;
+}
+
+.sec_menu_logo{
+width:80%;
+margin-left:10%;
+margin-top:10%;
+
+}
+
+.center{
+text-align:center;
+}
+.from_top{
+margin-top:10px;
+}
+.place_name_title
+{
+font-size:23px;
+}
+
+.markers_table img{
+width:26px;
+}
+
+.markers_table td{
+padding:5px;
+font-size:20px;
+}
+
+.detail_delete{
+	float:right;
+	width:25px;
+	margin-right:16px;
+margin-top:60px;
+}
+
+.toast {
+position:fixed;
+top:45%;
+left:22%;
+padding:30px 40px;
+background-color:black;
+color:white;
+text-align:center;
+width:50%;
+z-index:2000;
+opacity:0.7;
+border-radius:50px;
+}

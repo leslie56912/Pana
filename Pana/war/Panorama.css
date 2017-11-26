@@ -109,7 +109,7 @@ background:url('img/menu_bg.png');
 background:url('img/sm_overlay.png');
 text-align:center;
 width:100%;
-margin-top:50px;
+margin-top:calc(100% - 25px);
 height:25px;
 color:white;
 font-size:13px;

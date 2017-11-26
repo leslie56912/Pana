@@ -1,0 +1,28 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.image_scroller {
+		position: fixed;
+		bottom: 60px;
+		width: 100%;
+	}
+	
+	.image_container {
+	width:100%;
+		overflow-x: scroll;
+	}
+	</ui:style>
+	<g:HTMLPanel styleName="{style.image_scroller} front"
+		ui:field="container">
+		<!-- <div class="left">
+			<img src="img/arrow_right.png"></img>
+		</div> -->
+		<g:HTMLPanel styleName="{style.image_container} left" ui:field="imgContainer">
+		</g:HTMLPanel>
+		<!-- <div class="left">
+			<img src="img/arrow_right.png"></img>
+		</div>
+		<div class="clear"></div> -->
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -22,6 +22,7 @@ public class DBHelper
 	{
 		try
 		{
+			
 			Class.forName(name);// 指定连接类型
 
 		}

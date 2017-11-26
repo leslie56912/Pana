@@ -37,8 +37,8 @@
 			<g:Image styleName="logo_main_view front" url="img/logo_main_view.png"></g:Image>
 		</g:HTMLPanel>
 
-		<custom:ImagePreviewScroller ui:field="previewer"
-			styleName="previewer front"></custom:ImagePreviewScroller>
+		<custom:PreviewImageScroller ui:field="previewer"
+			></custom:PreviewImageScroller>
 
 
 		<g:HTMLPanel ui:field="markersHP" styleName="markers_panel front"

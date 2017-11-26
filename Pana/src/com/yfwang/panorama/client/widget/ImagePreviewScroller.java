@@ -39,9 +39,9 @@ public class ImagePreviewScroller extends Composite
 	{
 	}
 
-	private static int IMG_WIDTH;
-	private static int IMG_GAP = 5;
-	private static final int CAPACITY = 5;
+	private  int IMG_WIDTH;
+	private  int IMG_GAP = 5;
+	private  final int CAPACITY = 5;
 
 	public ImagePreviewScroller()
 	{
