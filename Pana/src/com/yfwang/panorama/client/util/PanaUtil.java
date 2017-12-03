@@ -13,6 +13,7 @@ public class PanaUtil {
 			anim_speed : '2rpm',
 			move_speed : 4.1,
 			time_anim : false,
+			latitude_range:[-3*Math.PI/4, Math.PI/9],
 			gyroscope : true,
 			webgl : true,
 			loading_img : 'img/loading.gif',

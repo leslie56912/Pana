@@ -1,2 +1,0 @@
-serviceClass: com.yfwang.panorama.client.GreetingService
-path: AF9FB7354A0D9DE7EF2C6CF37484561D.gwt.rpc

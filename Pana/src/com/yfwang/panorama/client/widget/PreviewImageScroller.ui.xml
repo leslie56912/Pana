@@ -9,20 +9,14 @@
 	}
 	
 	.image_container {
-	width:100%;
+		width: 100%;
 		overflow-x: scroll;
 	}
 	</ui:style>
 	<g:HTMLPanel styleName="{style.image_scroller} front"
 		ui:field="container">
-		<!-- <div class="left">
-			<img src="img/arrow_right.png"></img>
-		</div> -->
-		<g:HTMLPanel styleName="{style.image_container} left" ui:field="imgContainer">
+		<g:HTMLPanel styleName="{style.image_container} left"
+			ui:field="imgContainer">
 		</g:HTMLPanel>
-		<!-- <div class="left">
-			<img src="img/arrow_right.png"></img>
-		</div>
-		<div class="clear"></div> -->
 	</g:HTMLPanel>
 </ui:UiBinder> 
